@@ -48,5 +48,9 @@ VALUES ('$username', '".md5($password)."', '$email', '$trn_date')";
 </form>
 </div>
 <?php } ?>
+<?php
+require 'footer.php';
+?>
+
 </body>
 </html>

@@ -52,10 +52,15 @@ input[type='submit']:hover {
   }
   
   /* Add a gray background color and some padding to the footer */
-  footer {
-    background-color: #f2f2f2;
-    padding: 25px;
-  }
+  footer{
+    background-color:#101010;
+    color:#9d9d9d;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;    
+    bottom:0;
+}
+
   
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
