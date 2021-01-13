@@ -1,3 +1,8 @@
+<?php
+session_start();
+//include auth.php file on all secure pages
+include("auth.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +11,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
-
+<?php
+require 'header.php';
+?>
 
 <div class="container">
     <h3 style="text-align:center; color:#0080ff;">Contact us form</h3>

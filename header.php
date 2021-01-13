@@ -1,7 +1,9 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">University Conference</a>
+    <a class="navbar-brand" href="#">
+    <img src="images/img1.jpg" width="30" height="30" alt="">
+  </a>
       <a href="index.php" class="navbar-brand">Welcome <?php echo $_SESSION['username']; ?></p></a>
     </div>
     <ul class="nav navbar-nav">
@@ -9,15 +11,16 @@
     if(isset($_SESSION['username'])){
     ?>
     
-      <li class="active"><a href="#">Home</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+      <li class="active"><a href="index.php">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Events <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
+          <li><a href="#">Upcoming Events</a></li>
+          <li><a href="#">Previous Events</a></li>
+          <li><a href="#">News and Blog</a></li>
         </ul>
       </li>
-      <li><a href="#">Events</a></li>
+      <li><a href="#">Submit Your Paper</a></li>
+      <li><a href="#">Registration Fees</a></li>
       <li><a href="#">About Us</a></li>
       <li><a href="contactus.php">Contact Us</a></li>
     </ul>
