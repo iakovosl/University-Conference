@@ -44,6 +44,21 @@ input[type='submit']{
 input[type='submit']:hover {
     background-color: #024978;
 }
+input[type='file'] {
+    
+    padding: 6px 20px 5px;
+    color: #fff;
+    background-color: #0067ab;
+    
+    font-size: 16px;
+    
+    border: 1px solid #0164a5;
+    border-radius: 2px;
+    margin-top: 10px;
+    position: relative;
+    left:400px;
+    cursor:pointer;
+}
 
    /* Remove the navbar's default margin-bottom and rounded borders */ 
    .navbar {

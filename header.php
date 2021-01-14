@@ -19,7 +19,7 @@
           <li><a href="#">News and Blog</a></li>
         </ul>
       </li>
-      <li><a href="#">Submit Your Paper</a></li>
+      <li><a href="upload.php">Submit Your Paper</a></li>
       <li><a href="#">Registration Fees</a></li>
       <li><a href="#">About Us</a></li>
       <li><a href="contactus.php">Contact Us</a></li>
@@ -30,14 +30,14 @@
         }else{
         ?>
               <li class="active"><a href="#">Home</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Events <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
+          <li><a href="#">Upcoming Events</a></li>
+          <li><a href="#">Previous Events</a></li>
+          <li><a href="#">News and Blog</a></li>
         </ul>
       </li>
-      <li><a href="#">Events</a></li>
+      
       <li><a href="#">About Us</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
